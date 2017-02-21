@@ -39,3 +39,56 @@ implement guest order history feature. Please implement with a new controller th
    php bin/magento setup:upgrade
    php bin/magento cache:clean
    ```
+   
+
+### How to use
+   
+   by calling rest api
+   
+   end point:
+   ```
+   rest/V1/guestorder/getGuestOrderHistory/:param
+   ```
+   
+   param can be 1,2,.. all
+   
+   ```
+   <?php
+	/*
+	 * init curl
+	 */
+	/*
+	$ch = curl_init();
+	 
+	curl_setopt($ch,CURLOPT_URL,'http://hostname/rest/V1/guestorder/getGuestOrderHistory/1');
+	curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+	curl_setopt($ch,CURLOPT_HEADER, false); 
+
+	$output=curl_exec($ch);
+
+	curl_close($ch);
+
+	echo $output;
+	?>
+   ```
+   
+   or by calling simple controller
+   
+   ```
+   <?php
+	/*
+	 * init curl
+	 */
+	$ch = curl_init();  
+	 
+	curl_setopt($ch,CURLOPT_URL,'http://hostname/ordercontroller/guestorderhistory?total_guest_order=1');
+	curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+	curl_setopt($ch,CURLOPT_HEADER, false); 
+
+	$output=curl_exec($ch);
+
+	curl_close($ch);
+
+	echo $output;
+	?>
+   ```
