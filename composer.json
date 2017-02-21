@@ -1,0 +1,21 @@
+{
+    "name": "born/module-ordercontroller",
+    "description": "To implement guest order history feature",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Jyotiranjan Biswal",
+            "email": "biswal@jyotiranjan.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Born\\OrderController\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
