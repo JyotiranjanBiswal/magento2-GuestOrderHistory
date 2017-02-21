@@ -13,7 +13,7 @@ implement guest order history feature. Please implement with a new controller th
 2. Enter following commands to install module:
 
    ```
-   composer require "born/module-ordercontroller:*"
+   composer require born/module-ordercontroller dev-master
    ```
 
    Wait while dependencies are updated.
