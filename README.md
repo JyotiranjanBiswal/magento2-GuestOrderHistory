@@ -2,7 +2,7 @@
 
 # Decription
 
-implement guest order history feature. Please implement with a new controller that takes parameter(s) to query a single order and returns a json with information about order status, total, items (sku, item_id, price) and total invoiced.
+Implement guest order history feature with a new controller that takes parameter(s) to query a single order and returns a json with information about order status, total, items (sku, item_id, price) and total invoiced.
 
 ## Installation
 
