@@ -1,24 +1,21 @@
 {
-  "name": "born/module-ordercontroller",
-  "description": "To implement guest order history feature",
-  "version": "1.0.0",
-  "require": {
-    "php": "~5.6.5|7.0.2|7.0.6|~7.0.6",
-    "magento/module-sales": ">=100.1.0",
-    "magento/framework": ">=100.1.0",
-    "magento/magento-composer-installer": "*"
-  },
-  "type": "magento2-module",
-  "license": [
-    "OSL-3.0",
-    "AFL-3.0"
-  ],
-  "autoload": {
-    "files": [
-      "registration.php"
+    "name": "born/module-ordercontroller",
+    "description": "To implement guest order history feature",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Jyotiranjan Biswal",
+            "email": "biswal@jyotiranjan.in"
+        }
     ],
-    "psr-4": {
-      "Born\\OrderController\\": ""
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Born\\OrderController\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
     }
-  }
 }
