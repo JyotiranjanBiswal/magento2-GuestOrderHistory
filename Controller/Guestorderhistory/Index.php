@@ -3,13 +3,13 @@
  * To implement guest order history feature
  * Copyright (C) 2016 biswal@jyotiranjan,in
  * 
- * This file included in Born/OrderController is licensed under OSL 3.0
+ * This file included in JRB/OrderController is licensed under OSL 3.0
  * 
  * http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  * Please see LICENSE.txt for the full text of the OSL 3.0 license
  */
 
-namespace Born\OrderController\Controller\Guestorderhistory;
+namespace JRB\OrderController\Controller\Guestorderhistory;
 
 class Index extends \Magento\Framework\App\Action\Action
 {

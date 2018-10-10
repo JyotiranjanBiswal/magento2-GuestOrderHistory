@@ -5,7 +5,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace Born\OrderController\Api;
+namespace JRB\OrderController\Api;
 
 /**
  * Defines the service contract for some simple maths functions. The purpose is

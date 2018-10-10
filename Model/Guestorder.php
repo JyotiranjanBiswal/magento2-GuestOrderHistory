@@ -5,9 +5,9 @@
  * See COPYING.txt for license details.
  */
 
-namespace Born\OrderController\Model;
+namespace JRB\OrderController\Model;
 
-use Born\OrderController\Api\GuestorderInterface;
+use JRB\OrderController\Api\GuestorderInterface;
 
 /**
  * Defines the implementaiton class of the calculator service contract.

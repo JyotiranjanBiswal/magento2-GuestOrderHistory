@@ -14,7 +14,7 @@
 	"version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "Born\\OrderController\\": ""
+            "JRB\\OrderController\\": ""
         },
         "files": [
             "registration.php"
