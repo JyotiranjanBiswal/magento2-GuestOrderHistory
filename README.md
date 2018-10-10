@@ -13,7 +13,7 @@ Implement guest order history feature with a new controller that takes parameter
 2. Enter following commands to install module:
 
    ```
-   composer require born/module-ordercontroller dev-master
+   composer require jrb/module-ordercontroller dev-guestorderhistory
    ```
 
    Wait while dependencies are updated.
